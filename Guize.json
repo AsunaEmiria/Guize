@@ -1,11 +1,11 @@
 [
   {
-    "port": "",
     "outboundTag": "proxy",
-    "ip": [],
     "domain": [
-      "#需要代理的域名 \"这一行高优先级\"",
-      "vcb-s.com",
+      "#需要代理的网址【最高优先级】",
+      "github.com",
+      "githubassets.com",
+      "githubusercontent.com，vcb-s.com",
       "docker.com",
       "hostloc.com",
       "adobe.com",
@@ -14,81 +14,48 @@
       "githubassets.com",
       "githubusercontent.com",
       "uniqlo.com"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
-    "port": "",
     "outboundTag": "direct",
-    "ip": [],
     "domain": [
-      "#需要直连的网址 \"这一行高优先级”",
+      "#需要直连的网址【最高优先级】",
       "bitwarden.com",
-      "bilibili.combitwarden.net",
-      "feed.cf-se.com",
-      "gravatar.com",
-      "gstatic.com",
-      "v2ray.cx",
-      "ichro.me",
+      "bitwarden.net",
       "baiyunju.cc",
       "letsencrypt.org",
       "adblockplus.org",
       "safesugar.net"
-    ],
-    "protocol": []
+    ]
   },
   {
-    "port": "",
     "outboundTag": "block",
-    "ip": [],
     "domain": [
-      "#阻止CrxMouse鼠标手势收集上网数据",
-      "mousegesturesapi.com",
-      "geosite:category-ads-all"
-    ],
-    "protocol": []
-  },
-  {
-    "type": "field",
-    "port": "0-60000",
-    "outboundTag": "proxy",
-    "ip": [
-      "1.1.1.1/32",
-      "1.0.0.1/32",
-      "8.8.8.8/32",
-      "8.8.4.4/32"
-    ],
-    "domain": [
-      "#GFW域名列表(代理)",
-      "geosite:gfw",
-      "geosite:greatfire",
-      "geoip:us",
-      "geoip:ca",
-      "geoip:telegram"
-    ],
-    "protocol": []
+      "#黑名单网址【无法访问】",
+      "mousegesturesapi.com"
+    ]
   },
   {
     "type": "field",
     "port": "0-65535",
     "outboundTag": "direct",
-    "ip": [
-      "223.5.5.5/32",
-      "119.29.29.29/32",
-      "180.76.76.76/32",
-      "114.114.114.114/32"
-    ],
     "domain": [
-      "#GFW域名列表(直连)",
-      "geoip:cn",
-      "geoip:private",
+      "#Apple 域名和 Google 直连域名",
+      "geosite:cn",
       "#供希望 Apple 域名直连（不走代理）的用户使用",
-      "geosite:apple-cn"
-    ],
-    "protocol": []
+      "geosite:apple-cn",
+      "#供希望 Google 域名直连（不走代理）的用户使用",
+      "geosite:google-cn",
+      "#steam、ea、blizzard、epicgames、nintendo部分游戏直连",
+      "geosite:category-games@cn"
+    ]
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "#Greatfire Analyzer 检测到的屏蔽域名",
+      "geosite:gfw",
+      "geosite:greatfire"
+    ]
   }
 ]
