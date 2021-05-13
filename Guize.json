@@ -14,11 +14,15 @@
       "githubassets.com",
       "githubusercontent.com",
       "uniqlo.com",
-      "assrt.net"
+      "assrt.net",
+      "battlenet.com"
     ]
   },
   {
     "outboundTag": "direct",
+    "ip": [
+      "101.33.32.137"
+    ],
     "domain": [
       "#需要直连的网址【最高优先级】",
       "bitwarden.com",
@@ -26,7 +30,9 @@
       "baiyunju.cc",
       "letsencrypt.org",
       "adblockplus.org",
-      "safesugar.net"
+      "safesugar.net",
+      "microsoft.com",
+      "maj-soul.com"
     ]
   },
   {
