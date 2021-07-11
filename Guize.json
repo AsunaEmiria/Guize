@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
       "#需要代理的网址【最高优先级】",
@@ -15,14 +16,18 @@
       "githubusercontent.com",
       "uniqlo.com",
       "assrt.net",
-      "battlenet.com"
+      "battlenet.com",
+      "link.gimhoy.com",
+      "vcb-s.com",
+      "huijiwiki.com",
+      "warframe.market",
+      "warframe.com",
+      "lanzous.com"
     ]
   },
   {
+    "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [
-      "101.33.32.137"
-    ],
     "domain": [
       "#需要直连的网址【最高优先级】",
       "bitwarden.com",
@@ -32,14 +37,15 @@
       "adblockplus.org",
       "safesugar.net",
       "microsoft.com",
-      "maj-soul.com"
+      "maj-soul.com",
+      "steamcontent.com"
     ]
   },
   {
     "outboundTag": "block",
     "domain": [
       "#黑名单网址【无法访问】",
-      "mousegesturesapi.com"
+      "#mousegesturesapi.com"
     ]
   },
   {
