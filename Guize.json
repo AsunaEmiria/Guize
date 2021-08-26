@@ -1,7 +1,9 @@
 ﻿[
   {
+    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
+    "ip": [],
     "domain": [
       "#需要代理的网址【最高优先级】",
       "github.com",
@@ -22,8 +24,9 @@
       "warframe.com",
       "lanzous.com",
       "hacg.cat",
-      "square-enix.com",
-    ]
+      "square-enix.com"
+    ],
+    "protocol": []
   },
   {
     "inboundTag": [],
