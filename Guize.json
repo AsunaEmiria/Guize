@@ -33,9 +33,6 @@
   {
     "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [
-      "106.53.125.82"
-    ],
     "domain": [
       "#需要直连的网址【最高优先级】",
       "bitwarden.com",
