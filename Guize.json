@@ -1,9 +1,7 @@
-﻿[
+[
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
-    "ip": [],
     "domain": [
       "#需要代理的网址【最高优先级】",
       "github.com",
@@ -24,13 +22,20 @@
       "warframe.com",
       "lanzous.com",
       "hacg.cat",
-      "square-enix.com"
+      "square-enix.com",
+      "winmoes.com",
+      "vcb-s.com",
+      "microsoft.com",
+      "live.com"
     ],
-    "protocol": []
+    "enabled": true
   },
   {
     "inboundTag": [],
     "outboundTag": "direct",
+    "ip": [
+      "106.53.125.82"
+    ],
     "domain": [
       "#需要直连的网址【最高优先级】",
       "bitwarden.com",
@@ -41,15 +46,21 @@
       "safesugar.net",
       "microsoft.com",
       "maj-soul.com",
-      "steamcontent.com"
-    ]
+      "steamcontent.com",
+      "jd.com",
+      "aria2c.com",
+      "speedtest.net",
+      "test-ipv6.com"
+    ],
+    "enabled": true
   },
   {
     "outboundTag": "block",
     "domain": [
       "#黑名单网址【无法访问】",
       "#mousegesturesapi.com"
-    ]
+    ],
+    "enabled": true
   },
   {
     "type": "field",
@@ -64,7 +75,8 @@
       "geosite:google-cn",
       "#steam、ea、blizzard、epicgames、nintendo部分游戏直连",
       "geosite:category-games@cn"
-    ]
+    ],
+    "enabled": true
   },
   {
     "outboundTag": "proxy",
@@ -72,6 +84,7 @@
       "#Greatfire Analyzer 检测到的屏蔽域名",
       "geosite:gfw",
       "geosite:greatfire"
-    ]
+    ],
+    "enabled": true
   }
 ]
