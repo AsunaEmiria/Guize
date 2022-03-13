@@ -1,0 +1,90 @@
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "#需要代理的网址【最高优先级】",
+      "github.com",
+      "githubassets.com",
+      "githubusercontent.com，vcb-s.com",
+      "docker.com",
+      "hostloc.com",
+      "adobe.com",
+      "bwh88.net",
+      "kiwivm.64clouds.com",
+      "githubassets.com",
+      "githubusercontent.com",
+      "uniqlo.com",
+      "assrt.net",
+      "battlenet.com",
+      "link.gimhoy.com",
+      "warframe.market",
+      "warframe.com",
+      "lanzous.com",
+      "hacg.cat",
+      "square-enix.com",
+      "winmoes.com",
+      "vcb-s.com",
+      "microsoft.com",
+      "live.com"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "106.53.125.82"
+    ],
+    "domain": [
+      "#需要直连的网址【最高优先级】",
+      "bitwarden.com",
+      "bitwarden.net",
+      "baiyunju.cc",
+      "letsencrypt.org",
+      "adblockplus.org",
+      "safesugar.net",
+      "microsoft.com",
+      "maj-soul.com",
+      "steamcontent.com",
+      "jd.com",
+      "aria2c.com",
+      "speedtest.net",
+      "test-ipv6.com"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "#黑名单网址【无法访问】",
+      "#mousegesturesapi.com"
+    ],
+    "enabled": true
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "domain": [
+      "#Apple 域名和 Google 直连域名",
+      "geosite:cn",
+      "#供希望 Apple 域名直连（不走代理）的用户使用",
+      "geosite:apple-cn",
+      "#供希望 Google 域名直连（不走代理）的用户使用",
+      "geosite:google-cn",
+      "#steam、ea、blizzard、epicgames、nintendo部分游戏直连",
+      "geosite:category-games@cn"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "#Greatfire Analyzer 检测到的屏蔽域名",
+      "geosite:gfw",
+      "geosite:greatfire"
+    ],
+    "enabled": true
+  }
+]
