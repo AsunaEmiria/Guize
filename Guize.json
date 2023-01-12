@@ -1,7 +1,9 @@
 [
   {
-    "inboundTag": [],
+    "id": "5054610445838239604",
+    "port": "",
     "outboundTag": "proxy",
+    "ip": [],
     "domain": [
       "#需要代理的网址【最高优先级】",
       "github.com",
@@ -32,6 +34,7 @@
     "enabled": true
   },
   {
+    "id": "5031261394481474851",
     "inboundTag": [],
     "outboundTag": "direct",
     "domain": [
@@ -53,6 +56,7 @@
     "enabled": true
   },
   {
+    "id": "5449373608959752719",
     "inboundTag": [],
     "outboundTag": "block",
     "domain": [
@@ -63,6 +67,7 @@
     "enabled": true
   },
   {
+    "id": "5381398743684453296",
     "type": "field",
     "port": "0-65535",
     "inboundTag": [],
@@ -87,6 +92,7 @@
     "enabled": true
   },
   {
+    "id": "5149865456920169529",
     "outboundTag": "proxy",
     "domain": [
       "#Greatfire Analyzer 检测到的屏蔽域名",
