@@ -1,104 +1,37 @@
-[
-  {
-    "id": "5054610445838239604",
-    "port": "",
-    "outboundTag": "proxy",
-    "ip": [],
-    "domain": [
-      "#需要代理的网址【最高优先级】",
-      "github.com",
-      "githubassets.com",
-      "githubusercontent.com",
-      "docker.com",
-      "hostloc.com",
-      "adobe.com",
-      "bwh88.net",
-      "kiwivm.64clouds.com",
-      "githubassets.com",
-      "githubusercontent.com",
-      "uniqlo.com",
-      "assrt.net",
-      "battlenet.com",
-      "link.gimhoy.com",
-      "warframe.market",
-      "warframe.com",
-      "lanzous.com",
-      "hacg.cat",
-      "square-enix.com",
-      "winmoes.com",
-      "vcb-s.com",
-      "microsoft.com",
-      "live.com",
-      "vtbs.moe"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "5031261394481474851",
-    "inboundTag": [],
-    "outboundTag": "direct",
-    "domain": [
-      "#需要直连的网址【最高优先级】",
-      "bitwarden.com",
-      "bitwarden.net",
-      "baiyunju.cc",
-      "letsencrypt.org",
-      "adblockplus.org",
-      "safesugar.net",
-      "microsoft.com",
-      "maj-soul.com",
-      "steamcontent.com",
-      "jd.com",
-      "aria2c.com",
-      "speedtest.net",
-      "test-ipv6.com"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "5449373608959752719",
-    "inboundTag": [],
-    "outboundTag": "block",
-    "domain": [
-      "#黑名单网址【无法访问】",
-      "#mousegesturesapi.com",
-      "geosite:category-ads-all"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "5381398743684453296",
-    "type": "field",
-    "port": "0-65535",
-    "inboundTag": [],
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ],
-    "domain": [
-      "#Apple 域名和 Google 直连域名",
-      "geosite:cn",
-      "#供希望 Apple 域名直连（不走代理）的用户使用",
-      "geosite:apple-cn",
-      "#供希望 Google 域名直连（不走代理）的用户使用",
-      "geosite:google-cn",
-      "#steam、ea、blizzard、epicgames、nintendo部分游戏直连",
-      "geosite:category-games@cn",
-      "domain:example-example.com",
-      "domain:example-example2.com",
-      "geosite:cn"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "5149865456920169529",
-    "outboundTag": "proxy",
-    "domain": [
-      "#Greatfire Analyzer 检测到的屏蔽域名",
-      "geosite:gfw",
-      "geosite:greatfire"
-    ],
-    "enabled": true
-  }
-]
+js_config:
+- Container:
+  - []
+  Env: jd_lzkj_loreal_draw_url
+  KeyWord:
+  - - jd_lzkj_loreal_draw_url
+  Name: 店铺抽奖·超级无线欧莱雅
+  Script: SuperManito_cishanjia_main/jd_lzkj_loreal_lkFollowShop.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_joinCommonId
+  KeyWord:
+  - - jd_joinCommonId
+  Name: 【船长】金币开卡
+  Script: HarbourJ_HarbourToulu_main/jd_joinCommon_opencard.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jinggengInviteJoin
+  KeyWord:
+  - - jinggengInviteJoin
+  Name: 【船长】邀请入会有礼京耕
+  Script: HarbourJ_HarbourToulu_main/jd_jinggengInvite.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxgame_activityId
+  KeyWord:
+  - - jd_wxgame_activityId
+  Name: 无线游戏.超级无线
+  Script: SuperManito_cishanjia_main/jd_wxgame.js
+  TimeOut: 0
+  Wait: 2
