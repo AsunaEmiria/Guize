@@ -68,7 +68,7 @@ js_config:
   KeyWord:
   - - jd_jinggeng_showPartition_activityUrl
   Name: 组队瓜分奖品·京耕
-  Script: jinggeng_showDrawOne.js
+  Script: jd_jinggeng_showPartition.js
   TimeOut: 0
   Wait: 2
 - Container:
