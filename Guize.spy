@@ -35,3 +35,84 @@ js_config:
   Script: KingRan_KR/jd_wxgame.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showDrawOne_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showDrawOne_activityUrl
+  Name: 大转盘抽奖·京耕
+  Script: jinggeng_showDrawOne.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showTaskDraw_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showTaskDraw_activityUrl
+  Name: 九宫格抽奖·京耕
+  Script: jd_jinggeng_showTaskDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_floor_activityUrl
+  KeyWord:
+  - - jd_jinggeng_floor_activityUrl
+  Name: 盖楼有礼·京耕
+  Script: jd_jinggeng_floor.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPartition_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPartition_activityUrl
+  Name: 组队瓜分奖品·京耕
+  Script: jinggeng_showDrawOne.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showFavoriteShop_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showFavoriteShop_activityUrl
+  Name: 关注店铺有礼·京耕
+  Script: jd_jinggeng_showFavoriteShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_loadBlindBox_activityUrl
+  KeyWord:
+  - - jd_jinggeng_loadBlindBox_activityUrl
+  Name: 惊喜开盲盒·京耕
+  Script: jd_jinggeng_loadBlindBox.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showSign_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showSign_activityUrl
+  Name: 店铺签到·京耕
+  Script: jd_jinggeng_showSign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showCart_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showCart_activityUrl
+  Name: 加购有礼·京耕
+  Script: jd_jinggeng_showCart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPerfectInformation_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPerfectInformation_activityUrl
+  Name: 完善资料有礼·京耕
+  Script: jd_jinggeng_showPerfectInformation.js
+  TimeOut: 0
+  Wait: 2
