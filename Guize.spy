@@ -290,3 +290,30 @@ js_config:
   Script: jd_lzkjInteract.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_pointExgBeans_activityUrl
+  KeyWord:
+  - - jd_pointExgBeans_activityUrl
+  Name: 积分兑换京豆·超级会员
+  Script: jd_pointExgBeans.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_pointExgShiWu_activityUrl
+  KeyWord:
+  - - jd_pointExgShiWu_activityUrl
+  Name: 积分兑换实物·超级会员
+  Script: jd_pointExgShiWu.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_pointExgHb_activityUrl
+  KeyWord:
+  - - jd_pointExgHb_activityUrl
+  Name: 积分兑换红包·超级会员
+  Script: jd_pointExgHb.js
+  TimeOut: 0
+  Wait: 2
