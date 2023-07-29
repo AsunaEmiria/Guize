@@ -465,10 +465,8 @@ js_config:
 - Container:
   - []
   Env: jd_zdjr_activityId
-  Env: jd_zdjr_activityUrl
   KeyWord:
   - - jd_zdjr_activityId
-  - - jd_lzkjdz_wxTeam_Id
   Name: 组队瓜分奖品·超级无线
   Script: jd_zdjr.js
   TimeOut: 0
