@@ -473,6 +473,15 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_zdjr_activityUrl
+  KeyWord:
+  - - jd_zdjr_activityUrl
+  Name: 组队瓜分奖品·超级无线
+  Script: 
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
