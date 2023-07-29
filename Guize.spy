@@ -476,7 +476,7 @@ js_config:
   Env: jd_zdjr_activityUrl
   KeyWord:
   - - jd_zdjr_activityUrl
-  Name: 组队瓜分奖品·超级无线
+  Name: 组队瓜分奖品·域名
   Script: jd_zdjr.js
   TimeOut: 0
   Wait: 5
