@@ -464,7 +464,8 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkjdz_wxTeam_Id
+  Env: jd_zdjr_activityId
+  Env: jd_zdjr_activityUrl
   KeyWord:
   - - jd_zdjr_activityId
   - - jd_lzkjdz_wxTeam_Id
@@ -570,7 +571,6 @@ js_config:
   - []
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
-  - - jd_cjhy_wxKnowledgeActivity_activityId
   - - jd_wxKnowledgeActivity_activityUrl
   Name: 知识超人·超级会员
   Script: jd_wxKnowledgeActivity.js
@@ -608,7 +608,7 @@ js_config:
   Env: DPQDTK
   KeyWord:
   - - DPQDTK
-  Name: 【签到】店铺签到
+  Name: 常规店铺签到
   Script: jd_dpqd.js
   TimeOut: 0
   Wait: 2
@@ -628,5 +628,32 @@ js_config:
   - - jd_lzkj_interactsaas_jgyl_activityId
   Name: 加购有礼
   Script: jd_lzkj_interactsaas_jgyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCollectionActivity_activityUrl
+  KeyWord:
+  - - jd_wxCollectionActivity_activityUrl
+  Name: 加购有礼.超级无线
+  Script: jd_wxCollectionActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxShopGift_activityUrl
+  KeyWord:
+  - - jd_wxShopGift_activityUrl
+  Name: 店铺礼包特效
+  Script: jd_wxShopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_collect_item_activityUrl
+  KeyWord:
+  - - jd_collect_item_activityUrl
+  Name: 关注商品有礼·收藏大师
+  Script: jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 2
