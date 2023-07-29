@@ -477,7 +477,7 @@ js_config:
   KeyWord:
   - - jd_zdjr_activityUrl
   Name: 组队瓜分奖品·超级无线
-  Script: 
+  Script: jd_zdjr.js
   TimeOut: 0
   Wait: 5
 - Container:
