@@ -464,15 +464,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_zdjr_activityId
-  KeyWord:
-  - - jd_zdjr_activityId
-  Name: 组队瓜分奖品·超级无线
-  Script: jd_zdjr.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
@@ -506,15 +497,6 @@ js_config:
   - - jd_lottery_activityUrl
   Name: 幸运抽奖·收藏大师
   Script: jd_txzj_lottery.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_cjhy_activityId
-  KeyWord:
-  - - jd_cjhy_activityId
-  Name: 组队瓜分奖品·超级会员
-  Script: jd_cjzdgf.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -659,6 +641,8 @@ js_config:
   Env: jd_wxTeam_activityUrl
   KeyWord:
   - - jd_wxTeam_activityUrl
+  - - jd_cjhy_activityId
+  - - jd_zdjr_activityId
   Name: 组队瓜分奖品·超级无线/超级会员
   Script: jd_wxTeam.js
   TimeOut: 0
