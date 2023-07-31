@@ -584,7 +584,7 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_wxShopFollowActivity_activityId
+  Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
   Name: 关注店铺有礼·超级无线
