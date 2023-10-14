@@ -648,3 +648,13 @@ js_config:
   Script: jd_wxTeam.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_wxDrawActivity_Id
+  KeyWord:
+  - - jd_wx_draw
+  - - jd_wx_draw_id
+  Name: lzkj幸运抽奖
+  Script: jd_lzkj_wxDrawActivity.js
+  TimeOut: 0
+  Wait: 2
