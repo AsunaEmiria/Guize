@@ -291,6 +291,7 @@ js_config:
   Env: jd_pointExgBeans_activityUrl
   KeyWord:
   - - jd_pointExgBeans_activityUrl
+  - - jd_wx_pointExgBeans_id
   Name: 积分兑换京豆·超级会员
   Script: jd_pointExgBeans.js
   TimeOut: 0
@@ -514,6 +515,7 @@ js_config:
   Env: jd_drawCenter_activityId
   KeyWord:
   - - jd_drawCenter_activityId
+  - - jd_wx_drawCenter_id
   Name: 店铺抽奖中心·超级无线
   Script: jd_drawCenter.js
   TimeOut: 0
@@ -543,6 +545,7 @@ js_config:
   KeyWord:
   - - jd_wxCartKoi_activityId
   - - jd_wx_cartKoi_id
+  - - jd_wx_CartKoi
   Name: 购物车锦鲤·超级无线
   Script: jd_wxCartKoi.js
   TimeOut: 0
@@ -600,6 +603,7 @@ js_config:
   Env: DPQDTK
   KeyWord:
   - - DPQDTK
+  - - jd_shopSign_investigate_id
   Name: 常规店铺签到
   Script: jd_dpqd.js
   TimeOut: 0
@@ -701,6 +705,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_loreal_share_url
   - - jd_loreal_lzkj_sharePolitely_id
+  - - jd_lz_share
   Name: 分享有礼.超级无线
   Script: jd_lzkj_loreal_share.js
   TimeOut: 0
