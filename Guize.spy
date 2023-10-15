@@ -218,8 +218,6 @@ js_config:
   KeyWord:
   - - jd_wxCompleteInfoId
   - - jd_completeInfoActivity_activityId
-  - - jd_wx_completeInfo_id
-  - - jd_wx_completeInfo
   Name: 【船长】完善信息有礼
   Script: jd_wxCompleteInfo.py
   TimeOut: 0
@@ -686,3 +684,15 @@ js_config:
   Script: jd_lzkj_loreal_organizeTeam.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_completeInfoActivity_activityUrl
+  KeyWord:
+  - - jd_completeInfoActivity_activityUrl
+  - - jd_wx_completeInfo_id
+  - - jd_wx_completeInfo
+  Name: 完善信息有礼.超级会员
+  Script: jd_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 2
+ 
