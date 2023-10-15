@@ -151,6 +151,8 @@ js_config:
   Env: jd_lzkj_loreal_followGoods_url
   KeyWord:
   - - jd_lzkj_loreal_followGoods_url
+  - - jd_loreal_lzkj_followGoods_id
+  - - jd_lz_followGoods
   Name: 关注商品有礼·超级无线欧莱雅
   Script: jd_lzkj_loreal_followGoods.js
   TimeOut: 0
@@ -216,6 +218,8 @@ js_config:
   KeyWord:
   - - jd_wxCompleteInfoId
   - - jd_completeInfoActivity_activityId
+  - - jd_wx_completeInfo_id
+  - - jd_wx_completeInfo
   Name: 【船长】完善信息有礼
   Script: jd_wxCompleteInfo.py
   TimeOut: 0
@@ -473,7 +477,6 @@ js_config:
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
-  - - jd_lz_collectCard
   Name: 集卡有礼·超级无线
   Script: jd_wxCollectCard.js
   TimeOut: 0
@@ -541,6 +544,7 @@ js_config:
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
+  - - jd_wx_cartKoi_id
   Name: 购物车锦鲤·超级无线
   Script: jd_wxCartKoi.js
   TimeOut: 0
