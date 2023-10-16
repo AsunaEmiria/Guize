@@ -544,8 +544,7 @@ js_config:
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
-  - - jd_wx_cartKoi_id
-  - - jd_wx_CartKoi
+  - - wxCartKoi/cartkoi
   Name: 购物车锦鲤·超级无线
   Script: jd_wxCartKoi.js
   TimeOut: 0
@@ -710,3 +709,4 @@ js_config:
   Script: jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 5
+ 
