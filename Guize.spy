@@ -599,7 +599,7 @@ js_config:
   KeyWord:
   - - DPLHTY
   Name: 大牌集合·京耕
-  Script: jd_opencardLH.js
+  Script: jd_opencardDPLHTY.js
   TimeOut: 0
   Wait: 2
 - Container:
