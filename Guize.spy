@@ -82,15 +82,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_upperSign_url
-  KeyWord:
-  - - jd_lzkj_loreal_upperSign_url
-  Name: 上上签抽奖·超级无线欧莱雅
-  Script: jd_lzkj_loreal_upperSign.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_lzkj_lkFollowShop_url
   KeyWord:
   - - jd_lzkj_lkFollowShop_url
@@ -133,15 +124,6 @@ js_config:
   - - jinggengInviteJoin
   Name: 【船长】邀请入会有礼
   Script: jd_jinggengInvite.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wdz_activityId
-  KeyWord:
-  - - jd_wdz_activityId
-  Name: 【船长】微定制组队通用脚本
-  Script: jd_wdz.py
   TimeOut: 0
   Wait: 2
 - Container:
@@ -577,24 +559,6 @@ js_config:
   - - jd_shopSign_investigate_id
   Name: 常规店铺签到
   Script: jd_dpqd.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_interactsaas_gzspyl_activityId
-  KeyWord:
-  - - jd_lzkj_interactsaas_gzspyl_activityId
-  Name: 关注商品有礼
-  Script: jd_lzkj_interactsaas_gzspyl.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_interactsaas_jgyl_activityId
-  KeyWord:
-  - - jd_lzkj_interactsaas_jgyl_activityId
-  Name: 加购有礼
-  Script: jd_lzkj_interactsaas_jgyl.js
   TimeOut: 0
   Wait: 2
 - Container:
