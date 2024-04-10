@@ -568,7 +568,7 @@ js_config:
   - - jd_wxCollectionActivity_activityUrl
   - - jd_wx_collection_id
   - - jd_wx_collection
-  Name: 加购有礼.超级无线
+  Name: 加购有礼.超级无线/超级会员
   Script: jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 2
